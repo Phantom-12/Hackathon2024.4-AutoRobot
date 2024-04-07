@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5597580273409376977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8197504193641025863}
+  - component: {fileID: 8927465800029091135}
+  m_Layer: 0
+  m_Name: DIalogSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8197504193641025863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5597580273409376977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1111.8558, y: 590.8777, z: -5.144075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8927465800029091135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5597580273409376977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eafa45e4437824f99cc8a53ff0c649, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLevel:
+  - {fileID: 21300000, guid: f4d944a9c63bf7d418beaad374f6c8f7, type: 3}
+  - {fileID: 21300000, guid: 561749f1898cd3c4e9812bfab13725ab, type: 3}
+  backToObey:
+  - {fileID: 21300000, guid: f3d91eb444dd15243a2a437f80e46986, type: 3}
+  backToEscape:
+  - {fileID: 21300000, guid: a5f2936b3835f3c44bbfc601e9db253d, type: 3}
+  toEscape1:
+  - {fileID: 21300000, guid: f431c18a22456d7409b5fa3af861ea4c, type: 3}
+  toEscape2:
+  - {fileID: 21300000, guid: 40f15e8eea3f81443ad1ada8af80125d, type: 3}
+  toObey1:
+  - {fileID: 21300000, guid: 1b8df0655ec2d22418484c340666247d, type: 3}
+  toObey2:
+  - {fileID: 21300000, guid: 3bc69e6eedfb7e94aab7944c51105a7e, type: 3}
